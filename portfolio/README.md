@@ -1,21 +1,22 @@
-# Rupesh Sah — Portfolio
+# Green World Landing Page
 
-This is a small, responsive personal portfolio built with HTML5, CSS3 and vanilla JavaScript. It is ready for deployment on GitHub Pages.
+This is a modern static landing page for Green World, a sustainability company focused on clean energy roadmaps, waste reduction systems, and practical carbon reporting.
 
-Features
-- Dark theme with blue accent
-- Responsive layout (mobile, tablet, desktop)
-- Sticky navigation with smooth scrolling
-- Typing animation, fade-in on scroll, back-to-top button
-- Contact form validation (client-side)
-- Accessible semantic HTML and keyboard navigation
+## Features
 
-How to use
-1. Place your real profile image at `portfolio/IMG_4547.jpg` (replace the placeholder).
-2. Open `portfolio/index.html` locally or push to a GitHub repository and enable GitHub Pages (set branch to `main`/`gh-pages` and folder to `/portfolio` or root as you prefer).
+- Responsive landing page built with HTML, CSS, and vanilla JavaScript
+- Local hero artwork stored in `media/green-world-hero.png`
+- Sticky navigation with mobile menu support
+- Scroll reveal effects and active section highlighting
+- Contact form validation with a friendly success message
 
-Notes
-- The placeholder `IMG_4547.jpg` is an SVG placeholder saved with a .jpg filename for convenience — replace it with a real JPEG file for production.
+## How to use
 
-License
-Personal portfolio template — feel free to customize.
+Open `index.html` in a browser, or publish the folder with any static hosting provider such as GitHub Pages.
+
+## Project files
+
+- `index.html` contains the page content and structure
+- `style.css` contains the full visual design and responsive layout
+- `script.js` contains navigation, reveal, back-to-top, and form interactions
+- `media/green-world-hero.png` is the local landing page image asset
