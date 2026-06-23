@@ -71,17 +71,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const formData = new FormData(contactForm);
     const name = String(formData.get("name") || "").trim();
     const email = String(formData.get("email") || "").trim();
-    const company = String(formData.get("company") || "").trim();
+    const accountType = String(formData.get("accountType") || "").trim();
     const message = String(formData.get("message") || "").trim();
 
-    if (!name || !email || !company || !message) {
+    if (!name || !email || !accountType || !message) {
       formMessage.textContent = "Please complete every field.";
       formMessage.style.color = "#b04a2f";
       return;
     }
 
-    formMessage.textContent = "Thanks. Green World will follow up with a focused next-step plan.";
-    formMessage.style.color = "#0d5038";
+    formMessage.textContent = "Thanks. Meridian Bank will follow up with the right banking specialist.";
+    formMessage.style.color = "#235c61";
     contactForm.reset();
   });
 });

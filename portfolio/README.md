@@ -1,14 +1,14 @@
-# Green World Landing Page
+# Meridian Bank Landing Page
 
-This is a modern static landing page for Green World, a sustainability company focused on clean energy roadmaps, waste reduction systems, and practical carbon reporting.
+This is a modern static landing page for Meridian Bank, a banking company offering personal accounts, savings, business banking, digital tools, and lending support.
 
 ## Features
 
 - Responsive landing page built with HTML, CSS, and vanilla JavaScript
-- Local hero artwork stored in `media/green-world-hero.png`
+- Local banking hero artwork stored in `media/banking-hero.png`
 - Sticky navigation with mobile menu support
 - Scroll reveal effects and active section highlighting
-- Contact form validation with a friendly success message
+- Lead form validation for account and lending inquiries
 
 ## How to use
 
@@ -19,4 +19,4 @@ Open `index.html` in a browser, or publish the folder with any static hosting pr
 - `index.html` contains the page content and structure
 - `style.css` contains the full visual design and responsive layout
 - `script.js` contains navigation, reveal, back-to-top, and form interactions
-- `media/green-world-hero.png` is the local landing page image asset
+- `media/banking-hero.png` is the local landing page image asset
