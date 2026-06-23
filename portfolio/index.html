@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rupesh Sah — Portfolio</title>
+  <meta name="description" content="Portfolio of Rupesh Sah — Computer Science student" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Rupesh Sah</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+      <ul id="primary-navigation" class="nav-list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container" tabindex="-1">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Rupesh Sah</h1>
+          <h2 class="subtitle" aria-live="polite">Computer Science Student</h2>
+          <p class="lead">I am a passionate Computer Science student interested in software development, artificial intelligence, robotics, embedded systems, and modern web technologies. I enjoy solving real-world problems through programming and continuously improving my technical skills.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+            <button class="btn ghost" id="sayHello">Say Hello</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="IMG_4547.jpg" alt="Portrait of Rupesh Sah" class="profile-img">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container reveal">
+      <h2>About Me</h2>
+      <p>Computer Science student — interested in AI, Python developer, web development, robotics. Continuous learner, problem solver and team player.</p>
+      <ul class="about-list">
+        <li>Computer Science student</li>
+        <li>Interested in AI</li>
+        <li>Python developer</li>
+        <li>Web development</li>
+        <li>Robotics</li>
+        <li>Continuous learner</li>
+        <li>Problem solver</li>
+        <li>Team player</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="skills container reveal">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <article class="card skill-card">
+          <div class="card-icon">💻</div>
+          <h3>Programming</h3>
+          <ul>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="card-icon">🤖</div>
+          <h3>Technical</h3>
+          <ul>
+            <li>AI-assisted Development</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Web Design</li>
+            <li>Problem Solving</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="card-icon">🔧</div>
+          <h3>Embedded & Robotics</h3>
+          <ul>
+            <li>Micro Programming</li>
+            <li>Robotics Concepts</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card">
+          <div class="card-icon">⚽</div>
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Football</li>
+            <li>Cricket</li>
+            <li>Dancing</li>
+            <li>Travelling</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container reveal">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="card project-card">
+          <div class="project-media" aria-hidden="true"></div>
+          <h3>Robotics Fleet Management</h3>
+          <p>Designed a robotics fleet management concept for coordinating multiple autonomous robots, improving efficiency and communication between robotic systems.</p>
+          <a class="btn" href="#" aria-label="View project Robotics Fleet Management">View Project</a>
+        </article>
+
+        <article class="card project-card">
+          <div class="project-media" aria-hidden="true"></div>
+          <h3>Micro Smart Control Experiments</h3>
+          <p>Developed Micro experiments using sensors, LEDs, buttons, and programmable controls to explore embedded systems and IoT concepts.</p>
+          <a class="btn" href="#" aria-label="View project Micro Smart Control Experiments">View Project</a>
+        </article>
+
+        <article class="card project-card">
+          <div class="project-media" aria-hidden="true"></div>
+          <h3>AI-assisted Programming Practice</h3>
+          <p>Practised software development using AI-assisted coding tools for debugging, learning algorithms, improving productivity, and writing clean code.</p>
+          <a class="btn" href="#" aria-label="View project AI-assisted Programming Practice">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container reveal">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info card">
+          <h3>Get in touch</h3>
+          <p><strong>Email:</strong> rupace556gmail.com</p>
+          <p><strong>Location:</strong> Liverpool, United Kingdom</p>
+          <div class="socials">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Email">Email</a>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form card" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn primary">Send</button>
+          <div id="formMessage" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" title="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Rupesh Sah</p>
+      <p>Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
